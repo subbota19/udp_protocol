@@ -10,7 +10,7 @@ for i in range(30):
 ret, frame = cap.read()
 
 # write to file(with png extension)
-cv2.imwrite('cam.png', frame)
+cv2.imwrite('photo.png', frame)
 
 #turn off camera
 cap.release()
